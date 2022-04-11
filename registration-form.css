@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 320px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(228, 238, 242)
+}
+
+.head{
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border-top: 10px solid rgb(92, 127, 241);
+    margin-bottom: 20px;
+}
+
+.head h1{
+    margin-bottom: 10px;
+}
+
+.head p{
+    margin-bottom: 8px;
+}
+
+.head div{
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(221, 221, 221);
+    width: 106.5%;
+    margin-left: -21px;
+    position: relative;
+}
+
+#switch{
+    font-weight: bold;
+}
+
+#switch span{
+    color: rgb(7, 140, 192);
+    cursor: pointer;
+}
+
+#asterix{
+    color: red;
+}
+
+.box{
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.box label{
+    font-weight: bold;
+}
+
+.box div{
+    border-top: 1px solid rgb(221, 221, 221);
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.box input{
+    width: 50%;
+    height: 40px;
+}
+
+.box .box-radio{
+    width: 7%;
+    height: 1.5em;
+}
+
+.note p{
+    color: gray;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(34, 98, 237);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-right: 16%;
+    cursor: pointer;
+}
+
+.foot #bar{
+    border: 5px solid rgb(41, 148, 41);
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.foot #page{
+    margin-right: 16%;
+}
+
+.foot{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.foot div p{
+    color: rgb(34, 98, 237);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caution p{
+    font-size: small;
+    margin-bottom: 60px;
+}
+
+
+
+
